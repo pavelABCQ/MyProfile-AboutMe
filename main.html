@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+
+{% block title %}
+Мой профиль
+{% endblock %}
+{% block style %}
+
+{% endblock %}
+
+{% block body %}
+     
+     <!--<aside>...</aside>- for menu--> 
+     <a href="https://google.com" target="_blank"></a><img src="https://www.theglamorousgleam.com/wp-content/uploads/2020/02/I-Love-Me-Positive-Affirmation.jpg" alt="Nope" width="150"></a> 
+     <h1>Павел Ястребов</h1> 
+     <p>Привет! Я <strong>Павел</strong> мне <em>18</em> лет, учусь на <strong><em>программиста</em></strong></p> 
+     <hr> 
+     
+                 <input type="text" id="name" placeholder="Имя"> 
+             </div> 
+  
+             <div> 
+                 <label for="email">Email</label> 
+                 <input type="email" id="email" value="@gmail.com"> 
+             </div> 
+  
+             <div> 
+                 <label>Don`t touch</label><br> 
+                 <input type="text" readonly value="Donttouch"> 
+             </div> 
+  
+             <div> 
+                 <label for="msg">You message:</label><br> 
+                 <textarea name="" id="msg" cols="20" rows="3"></textarea> 
+             </div> 
+  
+             <div> 
+                 <input type="button" value="Send"> 
+             </div> 
+         </form> 
+         {% endblock %}
