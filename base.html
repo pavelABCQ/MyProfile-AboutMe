@@ -1,0 +1,40 @@
+<!DOCTYPE html> 
+ <html lang="en"> 
+ <head> 
+     <meta charset="UTF-8"> 
+     <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+     <title>{% block title %} {% endblock %}</title> 
+     <meta name="keyword" content="i,I,I am,about me"> 
+     <meta name="description" content="Information about me"> 
+ <style> 
+        .btn-menu {
+         border: 3px solid #95ffcc;
+         background-color: #2b96ff;
+         border-radius: 20px;
+         text-decoration:none;
+         font-color: black;
+         }
+     .head {
+         box-sixing: border-box;
+         border-bottom: 2px solid #2600ff;
+         padding: 5px;
+         letter-spacing:0px;
+         line-height: 30px;
+         }
+     
+     {% block style %} {% endblock %}
+     
+ </style>
+ </head>
+ <body>
+     <div class="head">
+         <a href="main.html" class="btn-menu">Главная</a>
+     <a href="group.html" class="btn-menu">Одногруппники</a><br>
+     <a href="hobby.html" class="btn-menu">Мои хобби</a>
+     <a href="main.html" class="btn-menu">Мой профиль</a>
+     </div>
+     
+     {% block body %} {% endblock %}
+ </body>
+ 
+ </html>
