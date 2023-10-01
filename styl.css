@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald:wght@200;300&family=Raleway:wght@100&family=Young+Serif&display=swap');
+
+body {
+    background: linear-gradient(to bottom,red,white);
+}
+img {
+    width: 100%;
+}
+.head {
+    position: absolute;
+    top: 0px;
+    left: 40%;
+    font-size: 35px;
+    font-family: 'Raleway', sans-serif;
+    color: aliceblue;
+}
+.floor {
+    position: absolute;
+    top: 95%;
+    width:100%;
+    left:0;
+    text-align: center;
+
+    padding-top: 0.1%;
+}
+.btn-conts {
+}
