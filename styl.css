@@ -1,66 +1,29 @@
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald:wght@200;300&family=Raleway:wght@100&family=Young+Serif&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald:wght@200;300&family=Raleway:wght@100&family=Young+Serif&display=swap');
-body {
-    background-size: auto;
-    overflow: hidden;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keyword" content="circ,circus,show,Miracle" />
+    <meta name="description" content="Вся информация про наш цирк Miracle" >
+    <title>Miracle</title>
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+<div class="all">
+    <div class="main">
+    <img src="phone.jpg" alt="фон страницы не загружен">
+            <h1 class="title">Miracle</h1>
 
-}
-.main {
-    position:relative;
-    display:inline-block;
-}
+</div>
+    <div class="conts">
+        <a href="#" class="btn-con">Telegram</a>
+        <a href="#" class="btn-con">Watsapp</a>
+    </div>
 
-.main img {
-    width:100%;
-    height:100%;
-}
-.main .title {
-    position: absolute;
-    top:2%;
-    left: 40%;
-    font-style: bold;
-    font-size: 30px;
+        
 
-}
-.head {
-    text-align: center;
-    padding-left: 10%;
-    font-family: "Raleway", sans-serif;
-    font-size: 50px;
-    color: aliceblue;
-}
+</div>
+</body>
 
-.floor {
-    position: absolute;
-    top: 95%;
-    width:100%;
-    left:0;
-    text-align: center;
-    padding-top: 0.1%;
-}
 
-.cont-ws {
-    padding-left: 1%;
-}
-
-.cont-tg {
-    padding-right: 1%;
-}
-
-.btn-cont {
-    padding: 5px;
-    text-decoration: none;
-    color:#000;
-    border: 3px solid #000;
-    border-radius: 6px;
-    background: linear-gradient(to right,red,white) ;
-    margin: 15px;
-    font-size: 30px;
-    font-style:bold;
-    font-family:"Roboto Slab", sans-serif;
-    scroll-behavior:initial;
-    line-height:90px;
-    position: fixed;
-    
-
-}
+</html>
