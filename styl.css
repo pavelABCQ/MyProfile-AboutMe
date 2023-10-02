@@ -1,29 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keyword" content="circ,circus,show,Miracle" />
-    <meta name="description" content="Вся информация про наш цирк Miracle" >
-    <title>Miracle</title>
-    <link rel="stylesheet" href="styl.css">
-</head>
-<body>
-<div class="all">
-    <div class="main">
-    <img src="phone.jpg" alt="фон страницы не загружен">
-            <h1 class="title">Miracle</h1>
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald:wght@200;300&family=Raleway:wght@100&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Oswald:wght@200;300&family=Raleway:wght@100&family=Young+Serif&display=swap');
+body {
+    background-size: auto;
+    overflow: hidden;
 
-</div>
-    <div class="conts">
-        <a href="#" class="btn-con">Telegram</a>
-        <a href="#" class="btn-con">Watsapp</a>
-    </div>
+}
+.all {
+    position: absolute;
+    height: auto;
+    width: auto;
+}
+.main {
+    position:relative;
+    display:inline-block;
+}
 
-        
+.main img {
+    width:100%;
+    height:100%;
+}
+.main .title {
+    position: absolute;
+    top:2%;
+    left: 40%;
+    font-style: bold;
+    font-family: "Raleway",sans-serif;
 
-</div>
-</body>
+}
+.head {
+    text-align: center;
+    padding-left: 10%;
+    font-family: "Raleway", sans-serif;
+    font-size: 50px;
+    color: aliceblue;
+}
+
+.conts {
+    display: flex;
+    border-top:4px solid rgba(0, 0, 0, 0.7);
+    height: 100px;
+    width: 100%;
+    border: 4px solid black    
+}
+.btn-con {
+    display: flex;
+    background: red;
+    border-right: 5px solid black;
+    height: 100%;
+    width: 50%;
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    font-family: "Raleway",sant-serif;
+    font-style:bold;
+    font-size: 30%;
+    vertical-align: middle;
+    padding: 0%;
 
 
-</html>
+}
+
+
